@@ -1,4 +1,4 @@
-# [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)]
+# A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)
 
 ## Introduction
 This repo contains a PyTorch an implementation of 2D Bottom-up Human Pose Estimation model.
