@@ -5,7 +5,7 @@ This repo contains a PyTorch an implementation of 2D Bottom-up Human Pose Estima
 We refer to the original code which implement [Higher-HRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation) & [Davit](https://github.com/dingmyu/davit)
 
 This is the official code of A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)  
- 
+This repository is developed by Sehee Kim, and Junhee Lee.
 
 ![Illustrating the architecture of the our's model](/figures/figure_arch.png)
 
