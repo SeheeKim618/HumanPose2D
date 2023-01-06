@@ -162,7 +162,6 @@ python tools/dist_train.py \
 ```
 
 ## Citation
-If you find this work or code is helpful in your research, please cite:
 ````
 @inproceedings{cheng2020bottom,
   title={HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation},
