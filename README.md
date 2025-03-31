@@ -161,13 +161,22 @@ python tools/dist_train.py \
 ```
 
 ## Citation
-If you find this work or code is helpful in your research, please cite:
+If you find this code is helpful in your research, please cite:
 ````
 @inproceedings{cheng2020bottom,
   title={HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation},
   author={Bowen Cheng and Bin Xiao and Jingdong Wang and Honghui Shi and Thomas S. Huang and Lei Zhang},
   booktitle={CVPR},
   year={2020}
+}
+
+@inproceedings{ding2022davit,
+  title={Davit: Dual attention vision transformers},
+  author={Ding, Mingyu and Xiao, Bin and Codella, Noel and Luo, Ping and Wang, Jingdong and Yuan, Lu},
+  booktitle={European conference on computer vision},
+  pages={74--92},
+  year={2022},
+  organization={Springer}
 }
 
 @inproceedings{SunXLW19,
