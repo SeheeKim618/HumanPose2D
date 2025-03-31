@@ -25,7 +25,7 @@ CNN-based models have achieved remarkable performance in the human pose estimati
 | HigherHRNet    | HRNet-w32  | 512      |  28.6M  | 47.9   | 66.4  | 87.5  |  72.8  |  61.2  |  74.2  |
 | Ours           | HRNet-w32  | 512      |  35.5M  | 330.5   | **66.8**  | **88.2**  |  **73.6**  |  **61.6**  |  74.2  |
 ## Environment
-The code is developed using python 3.8 on Ubuntu. NVIDIA GPUs are needed. The code is developed and tested using 4 NVIDIA 3090 GPU cards. Other platforms or GPU cards are not fully tested.
+The code is developed using PyTorch and python 3.8. NVIDIA GPUs are needed. We developed and tested using 4 NVIDIA 3090 GPU cards. Other platforms or GPU cards are not fully tested.
 
 ## Quick start
 ### Installation
