@@ -1,4 +1,4 @@
-# [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)](https://drive.google.com/file/d/1sC1Li9IQlDmLiRUhiMM4VQVLzrb6uXsS/view?usp=sharing)
+# A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)
 
 This repo contains the official 2D Bottom-up Human Pose Estimation implementation of paper [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)](https://drive.google.com/file/d/1sC1Li9IQlDmLiRUhiMM4VQVLzrb6uXsS/view?usp=sharing), by Sehee Kim and Junhee Lee.
 
