@@ -1,7 +1,7 @@
 # [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)](https://drive.google.com/file/d/1sC1Li9IQlDmLiRUhiMM4VQVLzrb6uXsS/view?usp=sharing)
 
 ## Introduction
-This is the official code of [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)](https://drive.google.com/file/d/1sC1Li9IQlDmLiRUhiMM4VQVLzrb6uXsS/view?usp=sharing), by Sehee Kim and Junhee Lee.  
+This repo contains the official 2D Bottom-up Human Pose Estimation implementation of paper [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)](https://drive.google.com/file/d/1sC1Li9IQlDmLiRUhiMM4VQVLzrb6uXsS/view?usp=sharing), by Sehee Kim and Junhee Lee.  
 CNN-based models have achieved remarkable performance in the human pose estimation task. However, it remains unclear how they capture spatial dependencies for keypoint localization. On the other hand, Vision Transformer-based models efficiently capture long-range relationships through attention layers, but tend to have significantly more parameters and higher model complexity compared to CNN-based models. This paper proposes a hybrid model that combines CNN and Vision Transformer architectures to improve keypoint estimation accuracy while reducing model redundancy. The proposed CNN–Vision Transformer hybrid model combines HigherHRNet and DaViT-Tiny using a Feature Fusion Block.
 
 ![Illustrating the architecture of the our's model](/figures/figure_arch.png)
