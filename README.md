@@ -1,10 +1,12 @@
-# A Fusion Model based on CNN-Vision Transformer for Human Pose Estimation (KSC 2022)
+# [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)](https://drive.google.com/file/d/1sC1Li9IQlDmLiRUhiMM4VQVLzrb6uXsS/view?usp=sharing)
 
 ## Introduction
-This is the official code of paper "A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation" (KSC 2022) 
+This repo contains a PyTorch an implementation of 2D Bottom-up Human Pose Estimation model.
+We refer to the original code which implement [Higher-HRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation) & [Davit](https://github.com/dingmyu/davit)
 
-This repo contains a PyTorch implementation of 2D Bottom-up Human Pose Estimation model and is developed by Sehee Kim, and Junhee Lee.
-We refer to the original code: [Higher-HRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation) & [Davit](https://github.com/dingmyu/davit)
+This is the official code of [A Fusion Model based on CNN-Vision Transformer for HumanPose Estimation (KSC 2022)](https://drive.google.com/file/d/1sC1Li9IQlDmLiRUhiMM4VQVLzrb6uXsS/view?usp=sharing)  
+
+This repository is developed by Sehee Kim, and Junhee Lee.
 
 ![Illustrating the architecture of the our's model](/figures/figure_arch.png)
 
@@ -13,7 +15,7 @@ We refer to the original code: [Higher-HRNet](https://github.com/HRNet/HigherHRN
 | Method             | Backbone | Input size | #Params | GFLOPs |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |
 |--------------------|----------|------------|---------|--------|-------|-------|--------|--------|--------| 
 | HigherHRNet        | HRNet-w32  | 512      |  28.6M  | 47.9   | 67.1  | 86.2  |  73.0  |  61.5  |  76.1  | 
-| Ours               | HRNet-w32  | 512      |  35.5M  |   -    | **67.5**  | **86.9**  |  **73.6**  |  **61.9**  |  75.9  |  
+| Ours               | HRNet-w32  | 512      |  35.5M  | 330.5  | **67.5**  | **86.9**  |  **73.6**  |  **61.9**  |  75.9  |  
 
 ### Results on COCO test-dev2017 without multi-scale test
 | Method             | Backbone | Input size | #Params | GFLOPs |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |
@@ -24,7 +26,7 @@ We refer to the original code: [Higher-HRNet](https://github.com/HRNet/HigherHRN
 | PifPaf             |    -     | -          |   -     |  -     | 66.7  | -     |  -     |  62.4  |  72.9  | 
 | Bottom-up HRNet    | HRNet-w32  | 512      |  28.5M  | 38.9   | 64.1  | 86.3  |  70.4  |  57.4  |  73.9  | 
 | HigherHRNet    | HRNet-w32  | 512      |  28.6M  | 47.9   | 66.4  | 87.5  |  72.8  |  61.2  |  74.2  |
-| Ours           | HRNet-w32  | 512      |  35.5M  |   -    | **66.8**  | **88.2**  |  **73.6**  |  **61.6**  |  74.2  |
+| Ours           | HRNet-w32  | 512      |  35.5M  | 330.5   | **66.8**  | **88.2**  |  **73.6**  |  **61.6**  |  74.2  |
 ## Environment
 The code is developed using python 3.8 on Ubuntu. NVIDIA GPUs are needed. The code is developed and tested using 4 NVIDIA 3090 GPU cards. Other platforms or GPU cards are not fully tested.
 
@@ -162,6 +164,7 @@ python tools/dist_train.py \
 ```
 
 ## Citation
+If you find this work or code is helpful in your research, please cite:
 ````
 @inproceedings{cheng2020bottom,
   title={HigherHRNet: Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation},
